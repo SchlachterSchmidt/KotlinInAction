@@ -1,7 +1,5 @@
 package chapter3
 
-import java.io.File.separator
-
 fun <T> Collection<T>.joinToString(
     separator: String = " $ ",
     prefix: String = "(",

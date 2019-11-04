@@ -33,4 +33,8 @@ fun main() {
 
     // We can also attempt to convert a string to int directly. throws arithmetic exception if no number in the string
     println("42".toInt())
+
+    val answer: Any = 42
+    println(answer.javaClass)
+
 }

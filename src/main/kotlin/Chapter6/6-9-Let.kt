@@ -1,8 +1,6 @@
 package Chapter6
 
 fun main() {
-
-
     // the let function turns the object it is called on into the receiver of a lambda
     // Combined with a safe call ?. this can make passing nullable arguments to functions that expect a non nullable type
     // easier
